@@ -1,0 +1,301 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #243847;
+    font-family: Arial, sans-serif;
+}
+
+.contenedor {
+    width: 100%;
+    margin: auto;
+}
+.encabezado {
+    background: #566f79;
+    height: 70px;
+}
+
+.logo {
+    width: 90px;
+    height: 70px;
+    float: left;
+    text-align: center;
+}
+
+.logo img {
+    width: 40px;
+    margin-top: 15px;
+}
+
+.menu {
+    float: right;
+    height: 70px;
+}
+
+.menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    height: 70px;
+}
+
+.menu li {
+    float: left;
+    height: 70px;
+    line-height: 70px;
+    margin-right: 20px;
+    background: #b6cdd3;
+}
+
+.menu li a {
+    display: block;
+    position: relative;
+    padding: 0 22px;
+    color: #2a3c47;
+    text-decoration: none;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.contenido {
+    background: #243847;
+    overflow: hidden;
+    height: 1650px;
+    width: 100%;
+    background-image: url(../img/pkk.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.titulo {
+    color: white;
+    font-size: 120px;
+    margin: 40px 0 0 50px;
+    float: left;
+}
+
+.descripcion {
+    width: 450px;
+    color: white;
+    font-size: 28px;
+    line-height: 45px;
+    text-align: right;
+    float: right;
+    margin-top: 140px;
+    margin-right: 40px;
+}
+
+.imagen-ciudad img {
+    width: 100%;
+    display: block;
+    margin-top: 50px;
+}
+
+.pie {
+    height: 70px;
+    background: #ece7df;
+}
+
+
+.contenido-galeria {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.contenido-galeria::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 1650px;
+    background: rgba(0,0,0,0.45);
+    top: 70px;
+    left: 0;
+}
+
+.galeria {
+    width: 100%;
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    font-size: 0;
+}
+
+.tarjeta {
+    width: 280px;
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 20px;
+    position: relative;
+    overflow: hidden;
+    font-size: 16px;
+    text-decoration: none;
+    color: inherit;
+}
+
+.tarjeta img {
+    width: 100%;
+    height: 900px;
+    display: block;
+    object-fit: cover;
+}
+
+.texto-vertical {
+    position: absolute;
+    bottom: 40px;
+    left: 50%;
+    color: white;
+    font-size: 90px;
+    font-weight: bold;
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.titulo-galeria {
+    width: 100%;
+    text-align: center;
+    color: #f3ede5;
+    font-size: 170px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    float: none;
+}
+
+
+.pagina-cafeterias    { background-image: url(); }
+.pagina-museos        { background-image: url(../img/museos.jpg); }
+.pagina-casonas       { background-image: url(../img/casonas.jpg); }
+.pagina-restaurantes  { background-image: url(../img/restaurantes.jpg); }
+.pagina-parques       { background-image: url(../img/parques.jpg); }
+
+
+.contenido-informacion {
+    background-image: none;
+    height: auto;
+    padding-bottom: 30px;
+}
+
+.informacion {
+    background-color: #f2ede0;
+    max-width: 950px;
+    margin: 30px auto;
+    padding: 50px;
+    font-family: "Elms Sans", sans-serif;
+    color: #333;
+    border: 1px solid #ddd;
+}
+
+.titulo-informacion {
+    color: #435e7a;
+    font-size: 55px;
+    font-weight: bold;
+    margin: 0;
+    line-height: 0.85;
+    text-wrap: wrap;
+    
+}
+
+.informacion-encabezado {
+    overflow: hidden;
+    height: 200px;
+}
+
+.informacion-titulo-principal {
+    float: left;
+    width: 35%;
+    height: 100%;
+}
+
+.informacion-mosaico {
+    float: right;
+    width: 65%;
+    text-align: right;
+    height: 100%;
+}
+
+.informacion-miniatura {
+    width: 95%;
+    height: 200%;
+    display: inline-block;
+    object-fit: cover;
+    margin-left: 5px;
+}
+
+.informacion-cuerpo {
+    margin-top: 25px;
+    overflow: hidden;
+}
+
+.informacion-historia {
+    float: left;
+    width: 65%;
+    padding-right: 30px;
+    box-sizing: border-box;
+}
+
+.informacion-parrafo {
+    font-size: 15px;
+    line-height: 1.7;
+    text-align: justify;
+    margin-bottom: 20px;
+}
+
+.informacion-fotos {
+    float: left;
+    width: 35%;
+}
+
+.informacion-foto {
+    width: 100%;
+    margin-bottom: 15px;
+    display: block;
+}
+
+.informacion-fichas {
+    margin-top: 40px;
+    border-top: 1px solid #eee;
+    padding-top: 20px;
+    overflow: hidden;
+}
+
+.informacion-ficha {
+    float: left;
+    width: 30%;
+    margin-right: 3.33%;
+}
+
+.informacion-subtitulo {
+    color: #a0a0a0;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border-bottom: 1px solid #dcdcdc;
+    margin-bottom: 10px;
+}
+
+.informacion-lista {
+    padding-left: 15px;
+    font-size: 13px;
+    line-height: 1.4;
+}
+
+.informacion-dato {
+    font-size: 13px;
+    color: #666;
+    margin: 5px 0;
+}
+
+.informacion-importante {
+    font-weight: bold;
+    font-size: 14px;
+}.informacion-encabezado .informacion-titulo-principal .titulo-informacion {
+}
+.informacion-encabezado .informacion-titulo-principal .titulo-informacion {
+    text-align: center;
+    font-size: 89px;
+}
+.informacion-encabezado .informacion-titulo-principal .titulo-informacion {
+    text-align: left;
+}
